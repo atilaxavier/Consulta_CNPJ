@@ -6,7 +6,7 @@ import requests
 ARQUIVO_ENTRADA = "cnpjs.csv"
 ARQUIVO_SAIDA = "resultados_completos_cnpjs.csv"
 
-DELAY_PADRAO = 0.6
+DELAY_PADRAO = 1.0
 TEMPO_ESPERA_BLOQUEIO = 60  # Tempo em segundos para esperar após o erro 429
 
 print("Iniciando processamento em lote com tratamento estrito de Rate Limit (429)...")
