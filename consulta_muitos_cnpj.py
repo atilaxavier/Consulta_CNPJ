@@ -4,7 +4,7 @@ import argparse
 import pandas as pd
 import requests
 
-DELAY_PADRAO = 1.0
+DELAY_PADRAO = 1.5
 TEMPO_ESPERA_BLOQUEIO = 60  # Tempo em segundos para esperar após o erro 429
 
 def main():
